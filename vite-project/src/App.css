@@ -1,0 +1,89 @@
+/* Styles for the container */
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #007bff; /* Primary background color */
+}
+
+/* Styles for the content wrapper */
+.bg-white {
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Styles for the Add button */
+.btn-success {
+  display: inline-block;
+  background-color: #28a745; /* Green */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+
+/* Styles for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Styles for table headings */
+.table th {
+  background-color: #f8f9fa; /* Light gray */
+  padding: 15px 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Styles for table data */
+.table td {
+  padding: 15px 10px;
+}
+
+/* Styles for the Update and Delete buttons */
+.btn-success,
+.btn-danger {
+  display: inline-block;
+  background-color: transparent;
+  color: #fff; /* White text */
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 8px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 5px;
+}
+
+/* Styles for the Update button */
+.btn-success {
+  border-color: #28a745; /* Green border */
+  color: black;
+}
+
+.btn-success:hover {
+  background-color: #28a745; /* Green on hover */
+}
+
+/* Styles for the Delete button */
+.btn-danger {
+  border-color: #dc3545; /* Red border */
+  color: black;
+}
+
+.btn-danger:hover {
+  background-color: #dc3545; /* Red on hover */
+}
