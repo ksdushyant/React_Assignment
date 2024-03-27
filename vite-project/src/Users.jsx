@@ -5,9 +5,9 @@ import axios from "axios";
 function Users() {
   const [users, setUsers] = useState([
     {
-      name: "Ravi",
-      email: "rbp@gmail.com",
-      age: 20,
+      name: "Dushyant",
+      email: "dushyant@gmail.com",
+      age: 23,
     },
   ]);
 
